@@ -166,15 +166,15 @@ var Scoreboard = new function () {
                 var t_id = task["key"];
 
                 result += " \
-<col class=\"score task\" data-task=\"" + t_id + "\" data-sort_key=\"t_" + t_id + "\"/> <col/><col/><col/><col/>";
+<col class=\"score task\" data-task=\"" + t_id + "\" data-sort_key=\"t_" + t_id + "\"/> <col/><col/><col/>";
             }
 
             result += " \
-<col class=\"score contest\" data-contest=\"" + c_id + "\" data-sort_key=\"c_" + c_id + "\"/> <col/><col/><col/><col/><col/>";
+<col class=\"score contest\" data-contest=\"" + c_id + "\" data-sort_key=\"c_" + c_id + "\"/> <col/><col/><col/><col/>";
         }
 
         result += " \
-<col class=\"score global\" data-sort_key=\"global\"/> <col/><col/><col/><col/><col/><col/>";
+<col class=\"score global\" data-sort_key=\"global\"/> <col/><col/><col/><col/><col/>";
 
         return result;
     };
